@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title> Student Resistration</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+
+        <style>
+            body{background-color: rgb(120, 181, 247);}
+            h2{color: crimson;}
+            td{padding:10px;}
+            lable{ font-family: 'Sofia', cursive; }
+            lable{color:rgb(82, 9, 13)}
+        </style>
+    </head>
+    <body>
+        <h2> Student Resistration Form</h2>
+        <fieldset>
+            <legend><span> Form</span></legend>
+        
+        <!-- <h3> Student resistration </h3>
+        <lable> First name</lable>
+            <input type="text>"><br>
+        
+            <lable> List name</lable>
+            <input type="text"><br>
+            <lable> Age</lable>
+            <input type="number"> -->
+        <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td><lable> First name</lable></td>
+                    <td><input type="text" maxlength="10" autofocus placeholder="First name only"></td>
+                </tr>
+                <tr>
+                    <td><lable> List name</lable></td>
+                    <td><input type="text" placeholder="last name only"><br></td>
+                 </tr>
+                 <tr>
+                   <td><lable> Age</lable></td>
+                    <td><input type="number" max="90"></td>
+                 </tr>
+                 <tr>
+                    <td><lable> Date of Birth</lable> </td>
+                    <td> <input type="date"></td>
+                 </tr>
+                 <tr>
+                    <td><lable> Select degree</lable></td>
+                    <td>
+                        <select>
+                            <option> MCA</option>
+                            <option> BBA</option>
+                            <option> BE</option>
+                            <option> BCA</option>
+                            <option> MCS</option>
+                            <option> BCA</option>
+                            <option> MCA</option>
+                            <option> Other</option>
+
+                        </select>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td> <lable>Gender</lable></td>
+                    <td>
+                        <input type="radio" name="gender"><lable> Male </lable>
+                        <input type="radio" name="gender"><lable> Female</lable>
+                        <input type="radio" name="gender"><lable> Other</lable>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td> <lable> Hobbies</lable></td>
+                    <td> 
+                        <input type="checkbox"> <lable> Reading</lable>
+                        <input type="checkbox"> <lable> Music</lable>
+                        <input type="checkbox"> <lable> Dancing</lable>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <lable> Upload profile picture</lable></td>
+                    <td> <input type="file"> </td>
+                </tr>
+                <tr>
+                    <td> <lable> Upload gratuation marksheet</lable></td>
+                    <td> <input type="file" multiple></td>
+                </tr>
+                <tr>
+                    <td><lable>Country</lable></td>
+                    <td> <input type="text" Value="India" readonly></td>
+                </tr>
+                <tr>
+                    <td><lable> Address</lable></td>
+                    <td> <textarea rows="5" cols="40"></textarea></td>
+                </tr>
+
+        
+            
+        
+            
+            </fieldset>
+            </tbody>
+        </table>
+        </form>
+    </body>
